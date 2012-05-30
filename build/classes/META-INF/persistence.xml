@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="CSSnifferPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>db.Model</class>
+    <properties>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+      <property name="transaction.factory_class" value="org.hibernate.transaction.JDBCTransactionFactory"/>
+      <property name="current_session_context_class" value="thread"/>
+      <property name="hibernate.connection.autocommit" value="true"/>
+      <property name="hibernate.connection.release_mode" value="on_close"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="hibernate.connection.provider_class" value="org.hibernate.connection.C3P0ConnectionProvider"/>
+      <property name="hibernate.c3p0.unreturnedConnectionTimeout" value="30"/>
+      <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces" value="true"/>
+      <property name="hibernate.c3p0.acquire_increment" value="1"/>
+      <property name="hibernate.c3p0.idle_test_period" value="10"/>
+      <property name="hibernate.c3p0.max_size" value="10"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.connection.username" value="ufd9gi9y"/>
+      <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+      <property name="hibernate.connection.password" value="ufd9gi9y"/>
+      <property name="hibernate.connection.url" value="jdbc:mysql://146.169.35.22:3306/test"/>
+    </properties>
+  </persistence-unit>
+</persistence>
