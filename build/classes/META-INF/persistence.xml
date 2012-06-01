@@ -23,6 +23,10 @@
       <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
       <property name="hibernate.connection.password" value="ufd9gi9y"/>
       <property name="hibernate.connection.url" value="jdbc:mysql://146.169.35.22:3306/test"/>
+      <property name="hibernate.connection.username" value="ufd9gi9y"/>
+      <property name="hibernate.connection.password" value="ufd9gi9y"/>
+      <property name="hibernate.connection.password" value="ufd9gi9y"/>
+      <property name="hibernate.connection.url" value=""/>
     </properties>
   </persistence-unit>
 </persistence>
